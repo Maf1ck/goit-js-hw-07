@@ -16,6 +16,7 @@ const checkInputs = (e) =>{
    formInfo[form.elements.email.name]=login.trim();
    formInfo[form.elements.password.name]=password.trim();
 
+   form.reset();
    console.log(formInfo);
 };
 
